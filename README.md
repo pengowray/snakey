@@ -8,7 +8,7 @@
 
 This is Snakey, aka `SNAKE11N.exe`, a two-player snake game I created from scratch in 1995 on a 486dx (33Mhz). It's my first non-trivial project in C. It has VGA graphics (320×200, 256 colours. The same as Doom) and no audio. It uses procedurally generated graphics.
 
-This game was never released until now (December 2018). It's quite terrible and should be of little interest to anyone. 
+This game was never finished or released before now (31 December 2018). It's quite terrible and should be of little interest to anyone. I dug it up in response to @moshboy's call to "[tweet a gif of the worst videogame you ever made](https://twitter.com/moshboy/status/1079073608712970240)". 
 
 The original executable in /RELEASES. It does not run on Windows 10 without DOSBox. You can try compiling it with Borland Turbo C++, which is happily now [freeware](http://edn.embarcadero.com/article/41337).
 
