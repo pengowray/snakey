@@ -1,20 +1,21 @@
-"Happiness is essentially a state of going somewhere wholeheartedly, one-directionally, without regret or reservation." - William H. Sheldon
+> _Happiness is essentially a state of going somewhere wholeheartedly, one-directionally, without regret or reservation._
+> — William H. Sheldon (1898 – 1977)
 
 This is Snakey, aka `SNAKE11N.exe`, a snake game I created from scratch in 1995 on a 486dx (33Mhz). It's my first non-trivial project in C. It has VGA graphics (320×200, 256 colours. The same as Doom) and no audio. The compiler was Borland Turbo C++, which is happily now [freeware](http://edn.embarcadero.com/article/41337).
 
 This game was never released. It should be of little interest to anyone, but I've put the executable in /RELEASES. It does not run on Windows 10 without DOSBox.
 
 Keys:
-Player one: <kbd>1</kbd> <kbd>2</kbd> (turn left, turn right), or 
-Player two: <kbd>,</kbd> <kbd>.</kbd> (turn left, turn right), or <kbd>←</kbd> <kbd>↑</kbd> <kbd>→</kbd> <kbd>↓</kbd>  (directional movement)
-Quit: (by dying) or <kbd>ESC</kbd> <kbd>3</kbd>
-Pause: <kbd>P</kbd>
-Game speed: <kbd>+</kbd> <kbd>-</kbd>
-VSYNC toggle: <kbd>*</kbd> (aka "Wait for retrace")
-"Show real game pieces": <kbd>=</kbd>
-Grow both snakes (for no reason): <kbd>\</kbd> 
-View background: <kbd>Enter</kbd>
-Menu: <kbd>ESC</kbd>
+* Player one: <kbd>1</kbd> <kbd>2</kbd> (turn left, turn right), or 
+* Player two: <kbd>,</kbd> <kbd>.</kbd> (turn left, turn right), or <kbd>←</kbd> <kbd>↑</kbd> <kbd>→</kbd> <kbd>↓</kbd>  (directional movement)
+* Quit: (by dying) or <kbd>ESC</kbd> <kbd>3</kbd>
+* Pause: <kbd>P</kbd>
+* Game speed: <kbd>+</kbd> <kbd>-</kbd>
+* VSYNC toggle: <kbd>*</kbd> (aka "Wait for retrace")
+* "Show real game pieces": <kbd>=</kbd>
+* Grow both snakes (for no reason): <kbd> \ </kbd> 
+* Pause to view the background: <kbd>Enter</kbd>
+* Menu: <kbd>ESC</kbd>
 
 Menu options: (<kbd>ESC</kbd>)
 
@@ -26,7 +27,7 @@ Menu options: (<kbd>ESC</kbd>)
 6. Icon size (resets the tile size to the default 8x8, but doesn't regenerate the tilemaps leading to weirdness if you started with a different sized tile. I'm not sure why this exists)
 7. New background (generate a random psychedilic background. I remember finding the algorithm to generate this in a magazine (or book?), but I don't remember more. I thought it was called "[Hopalong](https://www.researchgate.net/figure/Original-orbit-of-Hopalong-transformation-top-and-patterns-obtained-with-perturbation_fig5_257481524)", but that's another pattern, possibly also published along side it.)
 
-The essential source code files:
+The essential source code files are:
 
 SNAKE11N.C DRAW!.C DRAW!.H ICON6.C WALL!.C
 
@@ -58,12 +59,12 @@ I began a complete rewrite in C++, which I'm looking at right now probably for t
 
 I was new to OO but I seem to have understood some OO concepts: "Snake" is a kind of "Item" (sprite), and so is "Food" and "Baddie", and they all share methods for requesting movement, moving, and checking collisions. All good so far. But it looks like I also did some very much _not_ OO design: I'd had planned out how I would make a giant table of every item type and how it would interact with every other item type. I guess the combinatorial explosion of interaction types was too much for me because I didn't get much further than an extended comment around that idea. Perhaps I could see I needed to understand OO better, and this is when I went off to read the original "Design Patterns" book which was revolutionizing the programming world, and that may have lead me to learn Java, which was taking the world by storm with its promise of running on toasters. And Snakey was forgotten. RIP.
 
-```
 To run, in DOSBox:
+```
 mount c c:\snakey\RELEASES
 c:
 snake11n.exe 8
 ```
 <kbd>ALT</kbd>+<kbd>ENTER</kbd> for full screen.
 
-(the `8` is optional. 8 is the default tile size. Try 4, 16, or 30 for different sizes. Even numbers seem to work better than odd.)
+(the `8` is optional. 8 is the default tile size. Try 4, 16, or 30 for different sizes. Even numbers seem to work better than odd. Too big and it might crash)
