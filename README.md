@@ -1,4 +1,4 @@
-
+![Snakey](https://github.com/quole/snakey/blob/master/LOGO/snakey.png)
 
 > _Happiness is essentially a state of going somewhere wholeheartedly, one-directionally, without regret or reservation._
 > —&nbsp;William H. Sheldon (1898 – 1977)
