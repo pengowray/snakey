@@ -1,10 +1,10 @@
-![Snakey](https://github.com/quole/snakey/blob/master/LOGO/snakey.png)
+![Snakey](LOGO/snakey.png)
 
 > _Happiness is essentially a state of going somewhere wholeheartedly, one-directionally, without regret or reservation._
 > —&nbsp;William H. Sheldon (1898 – 1977)
 
-![gameplay gif 1](https://github.com/quole/snakey/blob/master/SCREENSHOTS/gameplay-tiles16.gif)
-![gameplay gif 2](https://github.com/quole/snakey/blob/master/SCREENSHOTS/gameplay-tiles8.gif)
+![gameplay gif 1](SCREENSHOTS/gameplay-tiles16.gif)
+![gameplay gif 2](SCREENSHOTS/gameplay-tiles8.gif)
 
 This is Snakey, aka `SNAKE11N.exe`, a two-player snake game I created from scratch in 1995 on a 486dx (33Mhz). It's my first non-trivial project in C. It has VGA graphics (320×200, 256 colours; the same as Doom) and no audio. It uses procedurally generated graphics.
 
@@ -27,7 +27,7 @@ The original executable in /RELEASES. It does not run on Windows 10 without DOSB
 
 # Menu
 
-![Menu screenshot](https://github.com/quole/snakey/blob/master/SCREENSHOTS/menu.png)
+![Menu screenshot](SCREENSHOTS/menu.png)
 
 Menu options: (via <kbd>ESC</kbd>)
 
@@ -38,17 +38,17 @@ Menu options: (via <kbd>ESC</kbd>)
 5. Players (sets the players to 1, which freezes player 2 and seems to make them edible? Player 2 comes back in if you make it to level 2)
 6. Icon size (resets the tile size to the default 8x8, but doesn't regenerate the tilemaps leading to weirdness if you started with a different sized tile. I'm not sure why this exists)
 
-> ![Icon size bug gif](https://github.com/quole/snakey/blob/master/SCREENSHOTS/gameplay-tiles4-iconsize-menu-option.gif)
+> ![Icon size bug gif](SCREENSHOTS/gameplay-tiles4-iconsize-menu-option.gif)
 
 > Snakey started with 4x4 tiles (`snake11n.exe 4`) then "Icon size" menu option selected. Why does this exist? Why am I even documenting it? Who knows.
 
 7. New background (generate a random psychedilic background. I remember finding the algorithm to generate this in a magazine (or book?), but I don't remember more. I thought it was called "[Hopalong](https://www.researchgate.net/figure/Original-orbit-of-Hopalong-transformation-top-and-patterns-obtained-with-perturbation_fig5_257481524)", but that's another pattern, possibly also published along side it.) Here's some samples:
 
-![New background sample 1](https://github.com/quole/snakey/blob/master/SCREENSHOTS/snake11n_000.png)
-![New background sample 2](https://github.com/quole/snakey/blob/master/SCREENSHOTS/snake11n_001.png)
-![New background sample 3](https://github.com/quole/snakey/blob/master/SCREENSHOTS/snake11n_002.png)
-![New background sample 4](https://github.com/quole/snakey/blob/master/SCREENSHOTS/snake11n_003.png)
-![New background sample 5](https://github.com/quole/snakey/blob/master/SCREENSHOTS/snake11n_004.png)
+![New background sample 1](SCREENSHOTS/snake11n_000.png)
+![New background sample 2](SCREENSHOTS/snake11n_001.png)
+![New background sample 3](SCREENSHOTS/snake11n_002.png)
+![New background sample 4](SCREENSHOTS/snake11n_003.png)
+![New background sample 5](SCREENSHOTS/snake11n_004.png)
 
 # Coding stories
 
@@ -79,9 +79,9 @@ The essential source code files are:
 `SNAKE11N.C DRAW!.C DRAW!.H ICON6.C WALL!.C`
 
 
-# Abjure
+# Abjure (Snakey 2.0)
 
-![Abjure](https://github.com/quole/snakey/blob/master/SRC/ABJURE/PICS/ABJURETW.GIF)
+![Abjure](SRC/ABJURE/PICS/ABJURETW.GIF)
 
 The beginning of the end of SNAKEY's development came when I was figuring out the best way to add more stuff to the levels (starting with bouncing plums, the natural enemy of snakes) and I got the idea from someone that it would be easier to manage these new sprites (or object types) using object-oriented (OO) programming techniques.
 
