@@ -1,9 +1,16 @@
+
+
 > _Happiness is essentially a state of going somewhere wholeheartedly, one-directionally, without regret or reservation._
-> — William H. Sheldon (1898 – 1977)
+> —&nbsp;William H. Sheldon (1898 – 1977)
 
-This is Snakey, aka `SNAKE11N.exe`, a snake game I created from scratch in 1995 on a 486dx (33Mhz). It's my first non-trivial project in C. It has VGA graphics (320×200, 256 colours. The same as Doom) and no audio. The compiler was Borland Turbo C++, which is happily now [freeware](http://edn.embarcadero.com/article/41337).
+![gameplay gif 1](https://github.com/quole/snakey/blob/master/SCREENSHOTS/gameplay-tiles16.gif)
+![gameplay gif 2](https://github.com/quole/snakey/blob/master/SCREENSHOTS/gameplay-tiles8.gif)
 
-This game was never released. It should be of little interest to anyone, but I've put the executable in /RELEASES. It does not run on Windows 10 without DOSBox.
+This is Snakey, aka `SNAKE11N.exe`, a snake game I created from scratch in 1995 on a 486dx (33Mhz). It's my first non-trivial project in C. It has VGA graphics (320×200, 256 colours. The same as Doom) and no audio. 
+
+This game was not released until now (December 2018). It's quite terrible and should be of little interest to anyone. 
+
+The original executable in /RELEASES. It does not run on Windows 10 without DOSBox. You can try compiling it with Borland Turbo C++, which is happily now [freeware](http://edn.embarcadero.com/article/41337).
 
 Keys:
 * Player one: <kbd>1</kbd> <kbd>2</kbd> (turn left, turn right), or 
