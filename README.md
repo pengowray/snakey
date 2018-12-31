@@ -6,7 +6,7 @@
 ![gameplay gif 1](https://github.com/quole/snakey/blob/master/SCREENSHOTS/gameplay-tiles16.gif)
 ![gameplay gif 2](https://github.com/quole/snakey/blob/master/SCREENSHOTS/gameplay-tiles8.gif)
 
-This is Snakey, aka `SNAKE11N.exe`, a two-player snake game I created from scratch in 1995 on a 486dx (33Mhz). It's my first non-trivial project in C. It has VGA graphics (320×200, 256 colours. The same as Doom) and no audio. 
+This is Snakey, aka `SNAKE11N.exe`, a two-player snake game I created from scratch in 1995 on a 486dx (33Mhz). It's my first non-trivial project in C. It has VGA graphics (320×200, 256 colours. The same as Doom) and no audio. It uses procedurally generated graphics.
 
 This game was never released until now (December 2018). It's quite terrible and should be of little interest to anyone. 
 
