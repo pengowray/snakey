@@ -6,7 +6,7 @@
 ![gameplay gif 1](SCREENSHOTS/gameplay-tiles16.gif)
 ![gameplay gif 2](SCREENSHOTS/gameplay-tiles8.gif)
 
-👉 [PLAY IN BROWSER NOW](https://quole.github.io/snakey/js-dos/) 👈
+👉 [PLAY IN BROWSER NOW](https://pengowray.github.io/snakey/js-dos/) 👈
 
 This is Snakey, aka `SNAKE11N.exe`, a two-player snake game I created from scratch in 1995 on a 486dx (33Mhz). It's my first non-trivial project in C. It has VGA graphics (320×200, 256 colours; the same as Doom) and no audio. It uses procedurally generated graphics.
 
@@ -93,7 +93,7 @@ I was new to OO but I seem to have understood some OO concepts: "Snake" is a kin
 
 # DOSBox
 
-👉 [PLAY IN BROWSER NOW](https://quole.github.io/snakey/js-dos/) 👈
+👉 [PLAY IN BROWSER NOW](https://pengowray.github.io/snakey/js-dos/) 👈
 
 Or, to run on your own PC in DOSBox:
 ```DOSBox
