@@ -44,13 +44,17 @@ Menu options: (via <kbd>ESC</kbd>)
 
 > Snakey started with 4x4 tiles (`snake11n.exe 4`) then "Icon size" menu option selected. Why does this exist? Why am I even documenting it? Who knows.
 
-7. New background (generate a random psychedilic background. I remember finding the algorithm to generate this in a magazine (or book?), but I don't remember more. I thought it was called "[Hopalong](https://www.researchgate.net/figure/Original-orbit-of-Hopalong-transformation-top-and-patterns-obtained-with-perturbation_fig5_257481524)", but that's another pattern, possibly also published along side it.) Here's some samples:
+7. New background (generate a random psychedilic background). I've tracked down where I found the algorithm to generate these wallpapers, and it's from a pseudocode listing in a Scientific American magazine from 1986 of a program called **CIRCLE²** sent in by a reader, **John E. Connett** of  the University of Minnesota, and published in a _Computer Recreations_ article by [A. K. Dewdney](https://en.wikipedia.org/wiki/Alexander_Dewdney) in [Scientific American, Volume 255, Number 3, September 1986](http://ftp.math.utah.edu/pub/tex/bib/toc/sciam1980.html#255(3):September:1986). `doi:10.1038/scientificamerican0986-14` <!-- bibliography: doi:10.1038/scientificamerican0986-120 --> I managed to find it because I remembered something called "[Hopalong](http://www.fraktalwelt.de/myhome/simpiter2.htm)" which is another pattern-generating algorithm published alongside it.
+
+Here's some new background samples: 
 
 ![New background sample 1](SCREENSHOTS/snake11n_000.png)
 ![New background sample 2](SCREENSHOTS/snake11n_001.png)
 ![New background sample 3](SCREENSHOTS/snake11n_002.png)
 ![New background sample 4](SCREENSHOTS/snake11n_003.png)
 ![New background sample 5](SCREENSHOTS/snake11n_004.png)
+
+You can generate countless more.
 
 # Coding stories
 
